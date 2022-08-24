@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <title>Simple Sidebar</title>
+</head>
+<body>
+    <div id="button" class="btn" onclick="navtoggle()"><span id="ham" class="fa fa-bars"></span></div>
+    <nav id="nav" class="sidebar">
+        <h2 class="sidebar-head">Side Menu</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#" onclick="display('first')">Features
+                <span class="icon fa fa-angle-down"></span>
+            </a></li>
+            <ul id="first" class="dnone">
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Elements</a></li>
+            </ul>
+            <li><a href="#" onclick="display('second')">Services
+                <span class="icon fa fa-angle-down"></span>
+            </a></li>
+            <ul id="second" class="dnone">
+                <li><a href="#">App Design</a></li>
+                <li><a href="#">Web Design</a></li>
+            </ul>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Shortcuts</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/ba10da8cb2.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
