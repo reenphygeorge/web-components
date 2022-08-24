@@ -11,4 +11,4 @@
      [Read-More](https://dev.to/developertharun/3-reasons-to-not-use-css-frameworks-like-bootstrap-and-materialize-1bh0)
      
 ## Components ✨
-* [Navbars](https://github.com/reenphygeorge/web-components/Navbars/README.MD)
+* [Navbars](https://reenphygeorge.github.io/web-components/Navbars/README.MD)
